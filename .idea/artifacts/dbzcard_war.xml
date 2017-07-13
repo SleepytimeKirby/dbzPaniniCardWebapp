@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dbzcard:war">
+    <output-path>$PROJECT_DIR$/dbzcard/target</output-path>
+    <root id="archive" name="dbzWebApp.war">
+      <element id="artifact" artifact-name="dbzcard:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/dbzcard.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

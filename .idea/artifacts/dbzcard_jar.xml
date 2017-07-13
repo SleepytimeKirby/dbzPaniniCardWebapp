@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="dbzcard:jar">
+    <output-path>$PROJECT_DIR$/src/main/webapp/WEB-INF/lib</output-path>
+    <root id="archive" name="dbzcard.jar">
+      <element id="module-output" name="dbzcard" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jooq/jooq-codegen/3.7.2/jooq-codegen-3.7.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jooq/jooq-meta/3.7.2/jooq-meta-3.7.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.5/gson-2.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.7.2/jooq-3.7.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.10/commons-codec-1.10.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

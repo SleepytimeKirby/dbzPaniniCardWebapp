@@ -1,0 +1,32 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>DBZDeck</servlet-name>
+    <servlet-class>rfitzpatrick.dbz.webapp.Servlets.dbzDeckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ReloadDecksandCards</servlet-name>
+    <servlet-class>rfitzpatrick.dbz.webapp.Servlets.dbzReloadServelet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>searchCards</servlet-name>
+    <servlet-class>rfitzpatrick.dbz.webapp.Servlets.dbzSearchServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>DBZDeck</servlet-name>
+    <url-pattern>/loadDeck</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchCards</servlet-name>
+    <url-pattern>/searchCard</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReloadDecksandCards</servlet-name>
+    <url-pattern>/reloadDecks</url-pattern>
+  </servlet-mapping>
+</web-app>
